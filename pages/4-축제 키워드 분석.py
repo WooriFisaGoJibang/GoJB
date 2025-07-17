@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import konlpy
+# import konlpy
 import matplotlib.pyplot as plt
 import plotly.express as px
 import koreanize_matplotlib
@@ -130,8 +130,8 @@ ranked_top50_all_years['시설명_cleaned'] = ranked_top50_all_years['시설명'
 cleaned_fes_df = ranked_top50_all_years['시설명_cleaned']
 
 # Perform word analysis on the cleaned names
-okt = konlpy.tag.Okt()
-cleaned_word_df = pd.DataFrame({'word': okt.nouns(' '.join(li for li in cleaned_fes_df.astype(str)))})
+# okt = konlpy.tag.Okt()
+# cleaned_word_df = pd.DataFrame({'word': okt.nouns(' '.join(li for li in cleaned_fes_df.astype(str)))})
 
 # Generate word count table for cleaned names
 # Group by cleaned festival name and count the occurrences
