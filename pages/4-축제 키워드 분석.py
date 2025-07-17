@@ -205,10 +205,11 @@ wordcloud = WordCloud(font_path=font_path,
 st.markdown("<h3>전국 축제에 대한 검색량</h3>", unsafe_allow_html=True)
 
 # 워드 클라우드 시각화
-plt.figure(figsize=(10, 10))
-plt.imshow(wordcloud, interpolation='bilinear')
-plt.axis('off')
-st.pyplot(plt)
+# plt.figure(figsize=(10, 10))
+# plt.imshow(wordcloud, interpolation='bilinear')
+# plt.axis('off')
+# st.pyplot(plt)
+st.image("./data/축제_워드클라우드.png", caption="워드클라우드 결과", use_container_width=True)
 
 st.markdown('---')
 
