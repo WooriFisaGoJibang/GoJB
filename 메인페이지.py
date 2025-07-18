@@ -176,9 +176,6 @@ st.markdown("""
 - 공공데이터포털 &gt; 전국문화축제표준데이터
   <a href='https://www.data.go.kr/data/15013104/standard.do' target='_blank'>https://www.data.go.kr/data/15013104/standard.do</a>
 <br>
-- 공공데이터포털 &gt; 경상남도_근대건축문화유산 60선  
-  <a href='https://www.data.go.kr/data/15062499/openapi.do' target='_blank'>https://www.data.go.kr/data/15062499/openapi.do</a>
-<br>
 - 문화 빅데이터 플랫폼 &gt; 전국 축제 트렌드 지도  
   <a href='https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=bdd518d0-e65a-4621-9f34-23bace896ae5' target='_blank'>https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=bdd518d0-e65a-4621-9f34-23bace896ae5</a>
 <br>            
