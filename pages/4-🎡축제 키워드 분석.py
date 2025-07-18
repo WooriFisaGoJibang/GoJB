@@ -150,7 +150,7 @@ fig = px.bar(cleaned_most_frequent_festivals.head(20),
              title='클리닝된 축제 이름별 빈도수 (상위 20개)')
 
 fig.update_layout(xaxis_tickangle=-45) # x축 라벨 기울기 조절
-st.markdown("<h3>축제 검색량</h3>",unsafe_allow_html=True)
+st.markdown("<h3>🎡축제 검색량</h3>",unsafe_allow_html=True)
 
 st.markdown(": 제 00회, 축제 앞 연도 제거한 축제")
 st.plotly_chart(fig)

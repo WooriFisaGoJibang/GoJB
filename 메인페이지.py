@@ -161,3 +161,28 @@ st.markdown("""
 st.markdown("---")
 
 st.markdown("<p style='text-align:center;'>지방의 숨겨진 매력을 세상에 알리는 프로젝트 🌿Go지방🌿에 오신 걸 환영합니다!</p>", unsafe_allow_html=True)
+
+st.markdown("---")
+st.markdown("""
+<br>
+<b>데이터 출처</b><br>
+<br>
+- 공공데이터포털 &gt; 서울특별시 축제 참여율 및 만족도 통계  
+  <a href='https://www.data.go.kr/data/15085152/fileData.do' target='_blank'>https://www.data.go.kr/data/15085152/fileData.do</a>
+<br>
+- 디지털트윈국토 &gt; 행정구역시군구_경계  
+  <a href='https://www.vworld.kr/dtmk/dtmk_ntads_s002.do?svcCde=MK&dsId=30604' target='_blank'>https://www.vworld.kr/dtmk/dtmk_ntads_s002.do?svcCde=MK&dsId=30604</a>
+<br>
+- 공공데이터포털 &gt; 전국문화축제표준데이터
+  <a href='https://www.data.go.kr/data/15013104/standard.do' target='_blank'>https://www.data.go.kr/data/15013104/standard.do</a>
+<br>
+- 공공데이터포털 &gt; 경상남도_근대건축문화유산 60선  
+  <a href='https://www.data.go.kr/data/15062499/openapi.do' target='_blank'>https://www.data.go.kr/data/15062499/openapi.do</a>
+<br>
+- 문화 빅데이터 플랫폼 &gt; 전국 축제 트렌드 지도  
+  <a href='https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=bdd518d0-e65a-4621-9f34-23bace896ae5' target='_blank'>https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=bdd518d0-e65a-4621-9f34-23bace896ae5</a>
+<br>            
+- 한국 관광 데이터랩 &gt; 광역시별 외지인 방문자수  
+  <a href='https://datalab.visitkorea.or.kr/datalab/portal/bda/getMetcoAna.do#' target='_blank'>https://datalab.visitkorea.or.kr/datalab/portal/bda/getMetcoAna.do#</a>
+""", unsafe_allow_html=True)
+
