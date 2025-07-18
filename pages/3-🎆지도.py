@@ -11,7 +11,7 @@ from shapely.geometry import Point
 import re
 
 st.set_page_config(layout="wide")
-st.title("🎆 전국 근대문화유산 + 지역 문화축제 + 경남 60선 지도")
+st.title("🎆 전국 근대문화유산 + 지역 문화축제 지도")
 
 @st.cache_data
 def load_data():
