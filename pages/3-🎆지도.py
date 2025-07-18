@@ -242,5 +242,5 @@ festival_table = df_festival_in_korea[festival_display_cols].reset_index(drop=Tr
 map_osm = create_map(show_heritage, show_festival, show_gyeongnam, selected_months, gdf_korea)
 st_folium(map_osm, width=900, height=650)
 st.markdown('<div style="margin-bottom: -32px"></div>', unsafe_allow_html=True)
-st.subheader("🎉 선택 월 축제 목록 (대한민국 영토 내 축제만, 중복·회차 통합 최신만)")
+st.subheader("🎉 선택 월 축제 목록")
 st.dataframe(festival_table, use_container_width=True)
